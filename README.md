@@ -2,7 +2,7 @@
 
 <div align="center">
   <img src="VibeFlow-App/public/vibeflow-logo.png" alt="VibeFlow Logo" width="200" />
-  <h3>The Next Evolution in Knowledge Flow Management</h3>
+  <h3>Next-Generation Visual Workflow Automation Platform</h3>
   
   ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
   ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
@@ -12,58 +12,67 @@
 
 ## 🚀 Vision
 
-**VibeFlow** is not just another note-taking app. It's a revolutionary knowledge management system that transforms how you capture, connect, and activate your ideas.
+**VibeFlow** is our answer to platforms like n8n.io and make.com, completely reimagined with a modern aesthetic, advanced AI capabilities, and a revolutionary agent-based architecture. Create sophisticated automation workflows with an intuitive visual editor that connects your digital world.
 
 > **Coming in Q2 2025** - Join the waitlist at [vibeflow.app](https://vibeflow.app)
 
 ## ✨ Core Features
 
-### 🧠 Advanced Note System
-Seamlessly organize your thoughts with hierarchical notes, rich templates, and AI-powered categorization. No more fragmented ideas.
+### 🤖 TRON Architecture (Task-Reactive Orchestration Network)
+Powered by our hierarchical multi-agent system that orchestrates workflow execution with Master, Domain, and Worker agents communicating through a secure event-driven protocol.
 
-### 🔄 Automation Flow Engine
-Build powerful automation flows that connect your notes, tasks, and external services. Visualize relationships with our sleek node-based editor.
+### 🔄 Visual Workflow Designer
+Create powerful automation flows with our modern flat 2D node editor featuring enhanced glow effects, intuitive connections, and a dark interface with subtle blue accents. Drag, drop, and connect services with animated data flow visualization.
 
-### 🎯 Task Management System
-Convert ideas into action with an integrated task management system that adapts to your workflow.
+### 🎯 300+ Integration Nodes
+Connect to hundreds of services and APIs through our extensive node library. From cloud services to databases, social platforms to development tools, VibeFlow connects your entire tech stack.
 
-### 🗣️ Enhanced Dictation
-Capture thoughts on the go with our state-of-the-art dictation system that understands context and commands.
+### 🗣️ Context-Aware Voice Control
+Design and manage workflows using natural language with our multi-modal dictation system. Switch between global, task, and canvas modes for specialized voice commands.
 
-### 📊 Visual Knowledge Mapping
-Discover connections between your ideas with our immersive knowledge graph visualization.
+### 📊 Real-Time Execution Monitoring
+Track your workflow execution with live visual feedback, detailed logs, and performance metrics. Debug with step-by-step execution visualization and data inspection tools.
 
-## 🔥 Why VibeFlow?
+## 🔥 Why VibeFlow Over n8n or Make?
 
-- **Radical UI** - Flat 2D interface with crisp blue accents and stunning glow effects
-- **Seamless Integration** - Connect with your favorite tools and services
-- **AI-Powered** - Leverage cutting-edge AI to enhance your productivity
-- **Open Architecture** - Extensible platform for developers and power users
+- **Superior Visualization** - Flat 2D interface with blue dot grid, crosses at intersections, and enhanced glow effects
+- **Card-Specific Zooming** - Intelligently zoom into components when scrolling over them for better focus
+- **Agent-Based Architecture** - Hierarchical TRON system outperforms traditional workflow engines
+- **Edge Processing** - Run workflows locally with minimal cloud dependency for better privacy and performance
+- **True Visual Debugging** - Step through your workflows with interactive data visualization at each node
 
-## 🛠️ Developers
+## 🛠️ Technical Architecture
 
-VibeFlow is crafted with modern technologies:
+VibeFlow is built on our cutting-edge TRON system:
 
-- **Frontend**: React, TypeScript, Material-UI, Konva.js for canvas visualization
-- **State Management**: Zustand for elegant, flexible state
-- **Animation**: Framer Motion for fluid transitions
-- **Voice Processing**: Advanced dictation system with custom NLP
+- **Frontend**: React, TypeScript, Material-UI, with Konva.js for the node-based canvas
+- **Workflow Engine**: Multi-tier agent architecture with Master, Domain, and Worker agents
+- **State Management**: Zustand for performant state orchestration with Immer for immutability
+- **Event System**: Custom event bus for robust inter-agent communication
+- **Security**: Defense-in-depth approach with secure digital identity for each workflow component
+- **Execution Model**: Topological sorting algorithm for optimal execution order with async support
 
-## 🔮 The Future
+## 🔮 Development Roadmap
 
-We're building VibeFlow in public. Follow our journey:
+We're building VibeFlow in public. Here's what's coming:
 
+- **Q2 2025**: Public beta launch with 100+ integration nodes
+- **Q3 2025**: Mobile companion app and enhanced collaboration features
+- **Q4 2025**: Enterprise deployment options and advanced security features
+- **Q1 2026**: Marketplace for community-created nodes and templates
+
+Follow our journey:
 - [Twitter](https://twitter.com/vibeflow)
 - [Discord Community](https://discord.gg/vibeflow)
 - [Development Blog](https://blog.vibeflow.app)
 
-## 🚧 Status: Building in Public
+## 🚧 Current Development Status
 
-VibeFlow is currently in active development. This repository contains our progress as we build toward our vision of the ultimate knowledge flow system.
+VibeFlow is in active development with focus on the core workflow editor, node connections, and TRON architecture implementation. The visual node system features our signature flat 2D design with enhanced glow effects and the card-specific zooming that users love.
 
 ---
 
 <div align="center">
   <img src="VibeFlow-App/public/vibeflow-coming-soon.png" alt="VibeFlow Preview" width="600" />
-  <p><strong>The flow of knowledge is about to change forever.</strong></p>
+  <p><strong>Workflow automation, visually perfected.</strong></p>
 </div>
