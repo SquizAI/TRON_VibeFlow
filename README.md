@@ -12,7 +12,7 @@
 
 ## 🚀 Vision
 
-**VibeFlow** is our answer to platforms like n8n.io and make.com, completely reimagined with a modern aesthetic, advanced AI capabilities, and a revolutionary agent-based architecture. Create sophisticated automation workflows with an intuitive visual editor that connects your digital world.
+**VibeFlow** is our answer to mission to completely reimagined automation, project managment with a modern aesthetic, advanced AI capabilities, and a revolutionary agent-based architecture. Create sophisticated automation workflows with an intuitive visual editor that connects your digital world.
 
 > **Coming in Q2 2025** - Join the waitlist at [vibeflow.app](https://vibeflow.app)
 
