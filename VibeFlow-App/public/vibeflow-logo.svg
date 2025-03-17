@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Dark background with subtle gradient -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#050508;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#070B14;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Glow effects -->
+    <filter id="blueGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feFlood flood-color="#2196F3" flood-opacity="0.7" result="glowColor" />
+      <feComposite in="glowColor" in2="blur" operator="in" result="softGlow" />
+      <feMerge>
+        <feMergeNode in="softGlow" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Main circular background -->
+  <circle cx="100" cy="100" r="95" fill="url(#bgGradient)" />
+  
+  <!-- Grid pattern with dots -->
+  <g opacity="0.6">
+    <!-- Small blue dots -->
+    <g fill="#1C3252" opacity="0.6">
+      <circle cx="50" cy="50" r="1" />
+      <circle cx="75" cy="50" r="1" />
+      <circle cx="100" cy="50" r="1" />
+      <circle cx="125" cy="50" r="1" />
+      <circle cx="150" cy="50" r="1" />
+      
+      <circle cx="50" cy="75" r="1" />
+      <circle cx="75" cy="75" r="1" />
+      <circle cx="100" cy="75" r="1" />
+      <circle cx="125" cy="75" r="1" />
+      <circle cx="150" cy="75" r="1" />
+      
+      <circle cx="50" cy="100" r="1" />
+      <circle cx="75" cy="100" r="1" />
+      <circle cx="125" cy="100" r="1" />
+      <circle cx="150" cy="100" r="1" />
+      
+      <circle cx="50" cy="125" r="1" />
+      <circle cx="75" cy="125" r="1" />
+      <circle cx="100" cy="125" r="1" />
+      <circle cx="125" cy="125" r="1" />
+      <circle cx="150" cy="125" r="1" />
+      
+      <circle cx="50" cy="150" r="1" />
+      <circle cx="75" cy="150" r="1" />
+      <circle cx="100" cy="150" r="1" />
+      <circle cx="125" cy="150" r="1" />
+      <circle cx="150" cy="150" r="1" />
+    </g>
+    
+    <!-- Blue crosses at major intersections -->
+    <g stroke="#2196F3" stroke-width="1.5" stroke-linecap="round" opacity="0.7">
+      <!-- Cross at 100,100 -->
+      <line x1="94" y1="100" x2="106" y2="100" />
+      <line x1="100" y1="94" x2="100" y2="106" />
+      
+      <!-- Cross at 50,50 -->
+      <line x1="44" y1="50" x2="56" y2="50" />
+      <line x1="50" y1="44" x2="50" y2="56" />
+      
+      <!-- Cross at 150,150 -->
+      <line x1="144" y1="150" x2="156" y2="150" />
+      <line x1="150" y1="144" x2="150" y2="156" />
+      
+      <!-- Cross at 150,50 -->
+      <line x1="144" y1="50" x2="156" y2="50" />
+      <line x1="150" y1="44" x2="150" y2="56" />
+      
+      <!-- Cross at 50,150 -->
+      <line x1="44" y1="150" x2="56" y2="150" />
+      <line x1="50" y1="144" x2="50" y2="156" />
+    </g>
+  </g>
+  
+  <!-- Main logo elements with glow effect -->
+  <g filter="url(#blueGlow)">
+    <!-- Stylized "V" shape -->
+    <path d="M85,60 L100,140 L115,60" fill="none" stroke="#00B0FF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+    
+    <!-- Flow line connecting to node -->
+    <path d="M100,140 Q130,130 150,110" fill="none" stroke="#00B0FF" stroke-width="4" stroke-linecap="round" />
+    
+    <!-- Node circle -->
+    <circle cx="150" cy="110" r="10" fill="#111111" stroke="#00B0FF" stroke-width="3" />
+  </g>
+  
+  <!-- Subtle pulsing circle in the center -->
+  <circle cx="100" cy="100" r="30" fill="none" stroke="#2196F3" stroke-width="1" opacity="0.3">
+    <animate attributeName="r" values="30;35;30" dur="4s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0.3;0.5;0.3" dur="4s" repeatCount="indefinite" />
+  </circle>
+</svg>
